@@ -1,0 +1,116 @@
+*{
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans' , sans-serif;
+}
+section{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background: url(bg2.jpg)no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+header{
+    position: relative;
+    top: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    align-items:center ;
+    justify-content: space-between;
+}
+header .logo{
+    position: relative;
+    color :rgb(187, 142, 46);
+    font-size: 30px;
+   text-decoration:none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+header .navigation a{
+    color: rgb(255, 227, 165);
+    text-decoration: none;
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding: 2px 15px;
+    border-radius: 20px;
+    transition: .3s;
+    transition-property: background;
+}
+header .navigation a:not(:last-child){
+    margin-right: 20px;
+}
+header .navigation a:hover{
+    background: rgb(255, 255, 255);
+    color: black;
+}
+.content{
+    max-width: 650px;
+    margin: 60px 100px;
+}
+.content .info h2{
+    color: rgb(198, 170, 45);
+    font-size: 55px;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 2px;
+    line-height: 60px;
+    margin-bottom: 30px;
+}
+.content .info h2 span{
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    font-weight: 600;
+}
+.content .info p{
+    font-size: 16px;
+    font-weight: 500;
+    color: goldenrod;
+    margin-bottom: 40px;
+    letter-spacing: 1.2px;
+}
+.content .info-btn{
+    color: rgb(0, 0, 0);
+    background: rgb(216, 193, 47);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: .3s;
+    transition-property: background;
+}
+.content .info-btn:hover{
+    background: rgb(154, 133, 41);
+}
+.media-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 65% ;
+    margin-top: 12%;
+}
+.media-icons a{
+   
+    background-color:rgba(163, 153, 37, 0.818);
+    color: white;
+    text-decoration: none;
+    border:2px solid transparent;
+    font-weight: bold;
+    padding: 9px 22px;
+    border-radius: 60px;
+    transition: .4s;
+}
+.media-icons a:not(:last-child){
+    margin-right: 60px;
+}
+.media-icons  a:hover{
+    transform: scale(1.5);
+}
